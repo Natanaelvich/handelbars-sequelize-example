@@ -3,11 +3,19 @@
     <div class="title-page">
         <h1>Posts</h1>
         <img src="images/superpotencia.svg" alt="hi" width="50">
+        <a href="/register-post">ADD NEW POST</a>
     </div>
     {{#each post}}
     <div class="box">
-        <h1>{{dataValues.title}}</h1>
-        <p>{{dataValues.description}}</p>
+        <div class="areaPost">
+            <h1>{{dataValues.title}}</h1>
+            <p>{{dataValues.description}}</p>
+        </div>
+        <div class="date">
+
+            <span>{{dataValues.createdAt}}</span>
+
+        </div>
     </div>
     {{/each}}
 

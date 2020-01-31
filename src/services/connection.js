@@ -5,6 +5,7 @@ import Post from '../models/Post'
 const sequelize = new Sequelize('youtube_course', 'root', '', {
   host: 'localhost',
   dialect: 'mysql',
+  timezone: '+03:00',
   define: {
     timestamp: false,
   },

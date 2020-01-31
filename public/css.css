@@ -26,8 +26,7 @@ button {
 }
 
 .app {
-  align-items: center;
-  justify-content: center;
+  width: 80%;
   background-color: #ffff;
   padding: 20px;
   border-radius: 10px;
@@ -45,7 +44,7 @@ button {
 }
 
 .app form input {
-  padding: 5px 4px 4px 10px;
+  padding: 10px;
   margin-bottom: 10px;
   border-radius: 10px;
   background-color: #f5f5f5;
